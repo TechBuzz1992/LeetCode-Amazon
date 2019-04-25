@@ -6,7 +6,7 @@ public class MergeTwoSortedArrays {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        Integer[] arr1 = {0,3,4,5,6};
+        Integer[] arr1 = {0,2,3,5,6};
         Integer[] arr2 = {1,2,7,8,9};
         List<Integer> list = addSortedArrays(Arrays.asList(arr1),Arrays.asList(arr2));
         for(int i=0;i<list.size();i++)
